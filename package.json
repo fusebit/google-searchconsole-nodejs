@@ -1,0 +1,30 @@
+{
+  "name": "google-searchconsole-nodejs",
+  "version": "1.0.0",
+  "description": "Google Search Console API using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fusebit/google-searchconsole-nodejs.git"
+  },
+  "keywords": [
+    "Google",
+    "Search",
+    "Console",
+    "API",
+    "Node.js"
+  ],
+  "author": "Shehzad Akbar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fusebit/google-searchconsole-nodejs/issues"
+  },
+  "homepage": "https://github.com/fusebit/google-searchconsole-nodejs#readme",
+  "dependencies": {
+    "google-auth-library": "^7.14.0",
+    "googleapis": "^96.0.0"
+  }
+}
