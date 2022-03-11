@@ -24,7 +24,7 @@ In this post, we’ll use [Google's Node.js SDK](https://github.com/googleapis/g
 Before you can get started with code, you will need to make sure that you enable the Search Console API for your website, or property, and set up a Service Account with the right access credentials to send requests using the Google API.
 
 1. Enable the API [here](https://console.developers.google.com/apis/api/searchconsole.googleapis.com)
-2. Create a Service Account in the Google Developers Console [here] (https://console.cloud.google.com/iam-admin/serviceaccounts)
+2. Create a Service Account in the Google Developers Console [here](https://console.cloud.google.com/iam-admin/serviceaccounts)
 3. For this newly created Service Account, navigate to ‘Keys’, create a new key, and save the JSON file somewhere secure. Your Node.js application will use these credentials to access the API .
 4. Add the email address of this newly created Service Account as an owner in the Search Console [here](https://search.google.com/search-console/users)
 
@@ -37,7 +37,9 @@ Now that you’ve configured the proper access credentials let’s get started w
 In your terminal, start up a new node project and install the required packages:
 
 `npm init`
+
 `npm install googleapis`
+
 `npm install google-auth-library`
 
 In this same directory, you will also need to place the `keys.json` file that you had created earlier. Once you’ve got that set up, create a new `index.js` file and paste in the following code:
@@ -121,12 +123,12 @@ Now that your newly published site has been indexed, you may want to see how imp
 
 For the example above, in the response body you will receive a `rows` object with four items for each data point:
 
-**Clicks** - How often someone clicked a link from Google to your site
-**Impressions** - How often someone saw a link to your site on Google
-**CTR** - The calculation of (clicks ÷ impressions)
-**Position** - A relative ranking of the position of your link on Google, where 1 is the topmost position, 2 is the next position, and so on
+- **Clicks** - How often someone clicked a link from Google to your site
+- **Impressions** - How often someone saw a link to your site on Google
+- **CTR** - The calculation of (clicks ÷ impressions)
+- **Position** - A relative ranking of the position of your link on Google, where 1 is the topmost position, 2 is the next position, and so on
 
-To learn more about how these are calculated, read here: [What are impressions, position, and clicks? - Search Console Help](https://support.google.com/webmasters/answer/7042828?hl=en)
+To learn more about how these are calculated, read [here](https://support.google.com/webmasters/answer/7042828?hl=en)
 
 
 ### Bonus: See the "average position" of specific keywords
