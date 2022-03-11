@@ -1,9 +1,10 @@
-[![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://join.slack.com/t/fusebitio/shared_invite/zt-qe7uidtf-4cs6OgaomFVgAF_fQZubfg)
+<p align="center">
+  <a href ="https://join.slack.com/t/fusebitio/shared_invite/zt-qe7uidtf-4cs6OgaomFVgAF_fQZubfg"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" width="100" /></a>
+  <a href = "https://discord.gg/SN4rhhCH"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" width="100" /></a>
+  <a href = "https://twitter.com/fusebitio"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" width="100" /></a>
+</p>
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/SN4rhhCH)
-
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/fusebitio)
-
+## Intro
 
 Google Search Console is a free service offered by Google that helps you monitor, maintain, and troubleshoot your site's presence in Google Search results. You don't have to use the Search Console to be included in Google Search results, but Search Console helps you understand and improve how Google sees your site.
 
@@ -159,4 +160,4 @@ Hopefully, you’ll find the above code and implementation details helpful. Whil
 
 Don’t hesitate to reach out if you have any questions, and we’ll be happy to help push you through. 
 
-Reach out to us through the chat bubble on the bottom left or you can find me on the [Fusebit Discord](https://discord.gg/SN4rhhCH), our [community Slack](https://join.slack.com/t/fusebitio/shared_invite/zt-qe7uidtf-4cs6OgaomFVgAF_fQZubfg), and at [shehzad@fusebit.io](mailto:shehzad@fusebit.io).
+You can find me on the [Fusebit Discord](https://discord.gg/SN4rhhCH), our [community Slack](https://join.slack.com/t/fusebitio/shared_invite/zt-qe7uidtf-4cs6OgaomFVgAF_fQZubfg), and at [shehzad@fusebit.io](mailto:shehzad@fusebit.io).
