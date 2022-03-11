@@ -17,7 +17,7 @@ The Search Console API offers four key capabilities:
 - [Sites](https://developers.google.com/webmaster-tools/v1/api_reference_index#Sites) - List/add/remove properties from your Search Console account.
 - [URL Inspection](https://developers.google.com/webmaster-tools/v1/api_reference_index#Inspection_tools) - Inspect the status of a page in the Google index (equivalent to URL Inspection in Search Console)
 
-In this post, we’ll use Google's Node.js SDK(https://github.com/googleapis/google-api-nodejs-client) to connect to the Search Console API. With the use of code examples, we’ll walk through a very common use case: Submitting an updated Sitemap to Google for indexing and monitoring the impact on your site’s online presence. 
+In this post, we’ll use [Google's Node.js SDK](https://github.com/googleapis/google-api-nodejs-client) to connect to the Search Console API. With the use of code examples, we’ll walk through a very common use case: Submitting an updated Sitemap to Google for indexing and monitoring the impact on your site’s online presence. 
 
 ## Configure Access Credentials
 
