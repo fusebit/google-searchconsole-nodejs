@@ -36,12 +36,12 @@ async function main() {
     siteUrl: 'https://fusebit.io/',
   });
   console.log(res.data);
-}
+
 
   // Inspect if a URL has been indexed
   const resInspectURL = await searchconsole.urlInspection.index.inspect({
     requestBody: {
-      inspectionUrl: "https://fusebit.io/blog/nodejs-https-imports/",
+      inspectionUrl: "https://fusebit.io/blog/google-search-console-nodejs/",
       languageCode: "en-US",
       siteUrl: "https://fusebit.io/",
     },
@@ -64,6 +64,8 @@ async function main() {
   });
   
   console.log(resSearchAnalytics.data.rows);
+
+}
 
 main().catch((e) => {
   console.error(e);
