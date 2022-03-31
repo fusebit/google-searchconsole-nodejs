@@ -1,0 +1,6 @@
+on: [push]
+jobs:
+      - name: Publish Sitemap
+        env: 
+          GOOGLE_SEARCH_CONSOLE_JSON_KEY: ${{ secrets.GOOGLE_SEARCH_CONSOLE_JSON_KEY }}
+        run: ./scripts/publish_sitemap/publish.sh
